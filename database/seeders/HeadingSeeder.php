@@ -43,7 +43,7 @@ class HeadingSeeder extends Seeder
                 "tax_id" => "SRNJGD72B26H885D"
             ],
             [
-                "user_id" => 2,
+                "user_id" => 1,
                 "name" => "Giancarlo",
                 "lastname" => "Verdi",
                 "email" => "giancarloverdi@gmail.com",
@@ -52,7 +52,7 @@ class HeadingSeeder extends Seeder
                 "tax_id" => "DYPVSM35B12H593D"
             ],
             [
-                "user_id" => 3,
+                "user_id" => 1,
                 "name" => "Gianfilippo",
                 "lastname" => "Bianchi",
                 "email" => "gianfilippobianchi@gmail.com",

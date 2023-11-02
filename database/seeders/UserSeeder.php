@@ -54,6 +54,42 @@ class UserSeeder extends Seeder
                 "email" => "marcoverdi@gmail.com"
             ],
 
+            [
+                "name" => "Sebastian",
+                "lastname" => "Casaglia",
+                "email" => "sebastiancasaglia@gmail.com"
+            ],
+            [
+                "name" => "Leonardo ",
+                "lastname" => "Rossi",
+                "email" => "leorossi@gmail.com"
+            ],
+            [
+                "name" => "Giulia",
+                "lastname" => "Volponi",
+                "email" => "giuliavolponi@gmail.com"
+            ],
+            [
+                "name" => "Irene",
+                "lastname" => "Marina",
+                "email" => "irenemarina@gmail.com"
+            ],
+            [
+                "name" => "Gianni",
+                "lastname" => "Ardenia",
+                "email" => "gianniardenia@gmail.com"
+            ],
+            [
+                "name" => "Andrea",
+                "lastname" => "Pasqui",
+                "email" => "andreapasqui@gmail.com"
+            ],
+            [
+                "name" => "Tobia",
+                "lastname" => "Borghini",
+                "email" => "tobiaborghini@gmail.com"
+            ],
+
         ];
 
 
