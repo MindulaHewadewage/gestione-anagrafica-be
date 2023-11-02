@@ -33,6 +33,8 @@ class HeadingSeeder extends Seeder
     public function run()
     {
         $headings = [
+
+            // ********USER ID 1********
             [
                 "user_id" => 1,
                 "name" => "Filippo",
@@ -60,6 +62,268 @@ class HeadingSeeder extends Seeder
                 "address" => "Via Colosseo, 70, 20127, Milan, Italy",
                 "tax_id" => "YNGFTP41R22B577T"
             ],
+
+            // ********USER ID 2********
+            [
+                "user_id" => 2,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 2,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 2,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            // ********USER ID 3********
+            [
+                "user_id" => 3,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 3,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 3,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 4********
+            [
+                "user_id" => 4,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 4,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 4,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 5********
+            [
+                "user_id" => 5,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 5,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 5,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 6********
+            [
+                "user_id" => 6,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 6,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 6,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 7********
+            [
+                "user_id" => 7,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 7,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 7,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 8********
+            [
+                "user_id" => 8,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 8,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 8,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 9********
+            [
+                "user_id" => 9,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 9,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 9,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
+            //******** USER ID 10********
+            [
+                "user_id" => 10,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 10,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+            [
+                "user_id" => 10,
+                "name" => "Filippo",
+                "lastname" => "Redi",
+                "email" => "filipporedi@gmail.com",
+                "phone" => 327690,
+                "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
+                "tax_id" => "SRNJGD72B26H885D"
+            ],
+
         ];
 
 
