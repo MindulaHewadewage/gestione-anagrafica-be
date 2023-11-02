@@ -38,7 +38,7 @@ class HeadingSeeder extends Seeder
                 "name" => "Filippo",
                 "lastname" => "Redi",
                 "email" => "filipporedi@gmail.com",
-                "phone" => 3276907234,
+                "phone" => 327690,
                 "address" => "Via Stamira d'Ancona, 27, 20127, Milan, Italy",
                 "tax_id" => "SRNJGD72B26H885D"
             ],
@@ -47,7 +47,7 @@ class HeadingSeeder extends Seeder
                 "name" => "Giancarlo",
                 "lastname" => "Verdi",
                 "email" => "giancarloverdi@gmail.com",
-                "phone" => 3276987234,
+                "phone" => 327698,
                 "address" => "Via Alessandro, 40, 20127, Milan, Italy",
                 "tax_id" => "DYPVSM35B12H593D"
             ],
@@ -56,7 +56,7 @@ class HeadingSeeder extends Seeder
                 "name" => "Gianfilippo",
                 "lastname" => "Bianchi",
                 "email" => "gianfilippobianchi@gmail.com",
-                "phone" => 3876907234,
+                "phone" => 387690,
                 "address" => "Via Colosseo, 70, 20127, Milan, Italy",
                 "tax_id" => "YNGFTP41R22B577T"
             ],

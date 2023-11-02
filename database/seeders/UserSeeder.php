@@ -53,6 +53,7 @@ class UserSeeder extends Seeder
                 "lastname" => "Verdi",
                 "email" => "marcoverdi@gmail.com"
             ],
+
         ];
 
 
