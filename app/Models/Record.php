@@ -5,20 +5,23 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Heading extends Model
+class Record extends Model
 {
-
     use HasFactory;
     protected $fillable = [
-        'user_id',
         'name',
         'lastname',
         'email',
-        'company',
+        'address',
+        'tax_id',
+        'vat_number',
+        'phone',
+        'role',
+        'avalaible',
     ];
 
-    public function records()
+    public function headings()
     {
-        return $this->belogsToMany(Record::class);
+        return $this->belogsToMany(Heading::class);
     }
 }
