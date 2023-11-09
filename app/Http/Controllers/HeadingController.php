@@ -10,10 +10,13 @@ class HeadingController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $headings = Heading::orderBy('lastname')->get();
-        return view('headings.index', compact('headings'));
+        $search = $request->query('search');
+        $query = Heading::orderBy('lastname');
+        if ($search) $query->where('lastname', 'LIKE', "%$search%");
+        $headings = $query->get();
+        return view('headings.index', compact('headings', 'search'));
     }
 
     /**
@@ -35,9 +38,10 @@ class HeadingController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Heading $heading)
     {
-        //
+
+        return view('headings.show', compact('heading'));
     }
 
     /**
