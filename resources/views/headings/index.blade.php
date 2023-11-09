@@ -52,6 +52,8 @@
                 @endforelse
             </tbody>
         </table>
+
+        {{ $headings->links() }}
     </div>
 
 @endsection

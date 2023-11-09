@@ -15,7 +15,7 @@ class HeadingController extends Controller
         $search = $request->query('search');
         $query = Heading::orderBy('lastname');
         if ($search) $query->where('lastname', 'LIKE', "%$search%");
-        $headings = $query->get();
+        $headings = $query->paginate(10);
         return view('headings.index', compact('headings', 'search'));
     }
 
