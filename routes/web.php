@@ -32,5 +32,7 @@ Route::middleware('auth')->group(function () {
 require __DIR__ . '/auth.php';
 
 
+// Route::get('/',[HeadingController::class.'index'])->name('home');
+
 // Rotta per vedere la lista della rubrica
 Route::resource('headings', HeadingController::class);

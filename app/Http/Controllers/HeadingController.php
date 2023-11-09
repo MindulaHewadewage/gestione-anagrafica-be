@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Heading;
 use Illuminate\Http\Request;
 
 class HeadingController extends Controller
@@ -11,7 +12,8 @@ class HeadingController extends Controller
      */
     public function index()
     {
-        return view('headings.index');
+        $headings = Heading::orderBy('lastname')->get();
+        return view('headings.index', compact('headings'));
     }
 
     /**

@@ -16,6 +16,14 @@ class RecordSeeder extends Seeder
     public function run(Generator $faker): void
     {
 
+        $roles = [
+            [
+                'label' => 'Italiano',
+                'color' => '#e91a1a',
+                'image' => 'https://www.kikkoman.it/fileadmin/_processed_/d/0/csm_Italien_0525c8ba3c.jpg',
+            ],
+        ];
+
         for ($i = 0; $i < 30; $i++) {
             $newRecord = new Record();
 
