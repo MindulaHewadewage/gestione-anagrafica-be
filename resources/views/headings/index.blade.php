@@ -6,7 +6,18 @@
 
 @section('content')
     <div class="card-title text-center">
-        <h1>Intestazioni</h1>
+
+        <div class="heading-header d-flex justify-content-between align-items-center my-3">
+            <h1 class="justify-content-center">Intestazioni</h1>
+
+            <div class="">
+                <a href="{{ route('headings.create') }}" class="btn btn-small btn-success">Aggiungi Intestazione</a>
+
+            </div>
+
+        </div>
+
+
         <div class="d-flex justify-content-end">
             <form method="GET" action="{{ route('headings.index') }}">
                 <div class="input-group mb-3">
@@ -14,8 +25,8 @@
                         value="{{ $search }}">
                     <button class="btn btn-outline-secondary" type="submit">Cerca</button>
                 </div>
-
             </form>
+
         </div>
     </div>
     <div class="card-body">

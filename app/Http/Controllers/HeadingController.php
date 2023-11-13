@@ -24,7 +24,7 @@ class HeadingController extends Controller
      */
     public function create()
     {
-        //
+        return view('headings.create');
     }
 
     /**
@@ -32,7 +32,16 @@ class HeadingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+
+        $heading = new Heading();
+
+        $heading->name = $data['name'];
+        $heading->lastname = $data['lastname'];
+        $heading->email = $data['email'];
+        $heading->company = $data['company'];
+
+        $heading->save();
     }
 
     /**
