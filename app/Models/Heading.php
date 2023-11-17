@@ -10,15 +10,20 @@ class Heading extends Model
 
     use HasFactory;
     protected $fillable = [
-        'user_id',
         'name',
         'lastname',
         'email',
         'company',
+        'user_id',
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 
     public function records()
     {
-        return $this->belogsToMany(Record::class);
+        return $this->belongsToMany(Record::class);
     }
 }

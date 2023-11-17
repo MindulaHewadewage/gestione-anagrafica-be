@@ -36,10 +36,7 @@ class HeadingController extends Controller
 
         $heading = new Heading();
 
-        $heading->name = $data['name'];
-        $heading->lastname = $data['lastname'];
-        $heading->email = $data['email'];
-        $heading->company = $data['company'];
+        $heading->fill($data);
 
         $heading->save();
     }
